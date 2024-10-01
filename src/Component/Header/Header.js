@@ -10,7 +10,7 @@ const Header = (props) => {
         <nav className="navbar navbar-expand-lg bg-body-tertiary ">
             <div className="container-fluid">
                 <div className="header-left">
-                    <a className="navbar-brand" href="#">
+                    <a className="navbar-brand">
                         <img src={logo} alt="Logo" width="30" height="24" className="d-inline-block align-text-top" />
                         <span className="ms-2">LAURA COFFEE</span>
                     </a>
