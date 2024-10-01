@@ -17,7 +17,7 @@ const Homepage = () => {
 
             <div className="homepage-desc row mt-4 mb-5">
                 <div className="col-lg-6">
-                    <span className="homepage-desc-text d-block mb-2">
+                    <span className="homepage-desc-text d-block mb-2 my-text-primary">
                         Cà phê Nhật Kim Anh Laura Sunshine
                         được sản xuất từ những hạt cà phê
                         thượng hạng nhất, mang đến cho quý

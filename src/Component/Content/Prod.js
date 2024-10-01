@@ -4,7 +4,7 @@ import "../../assets/scss/prod.scss"
 
 const Prod = () => {
     return (
-        <div className="prod-container">
+        <div className="prod-container my-text-primary">
             <div className="row">
                 <div className="col-lg-3">
                     <img src={prod_1} alt="logo" />

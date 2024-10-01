@@ -3,7 +3,7 @@ import "../../assets/scss/news.scss"
 
 const News = () => {
     return (
-        <div className="row news-container">
+        <div className="row news-container my-text-primary">
             <div className="col-lg-5">
                 <img src={news} alt="logo" />
             </div>

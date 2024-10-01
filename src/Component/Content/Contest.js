@@ -6,7 +6,7 @@ const Contest = () => {
     const navigate = useNavigate();
 
     return (
-        <div className="contest-container">
+        <div className="contest-container my-text-primary">
             <div className="contest-top">
                 <img src={contest} alt="logo" />
             </div>
