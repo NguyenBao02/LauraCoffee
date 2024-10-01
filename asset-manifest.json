@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/LauraCoffee/static/css/main.fde57e22.css",
+    "main.js": "/LauraCoffee/static/js/main.811cb532.js",
+    "static/js/787.174a0e6e.chunk.js": "/LauraCoffee/static/js/787.174a0e6e.chunk.js",
+    "static/media/contest.png": "/LauraCoffee/static/media/contest.742562f61a6bab8ab798.png",
+    "static/media/prod_2.png": "/LauraCoffee/static/media/prod_2.2360242f5cef06b7f6e4.png",
+    "static/media/prod_1.png": "/LauraCoffee/static/media/prod_1.db1b38f31c6a637361fe.png",
+    "static/media/pannel.png": "/LauraCoffee/static/media/pannel.f49af6d82cb934fb30c1.png",
+    "static/media/news.png": "/LauraCoffee/static/media/news.e05b03f72de97c46b02d.png",
+    "static/media/hp_1.png": "/LauraCoffee/static/media/hp_1.c13c5d18165f2bd8ec75.png",
+    "static/media/hp_2.png": "/LauraCoffee/static/media/hp_2.356515fd993b8fc9d66f.png",
+    "static/media/hp_3.png": "/LauraCoffee/static/media/hp_3.fd0b4f9a749750d9f0cf.png",
+    "static/media/laura-logo.png": "/LauraCoffee/static/media/laura-logo.cdd77b9b75df7d92cf05.png",
+    "index.html": "/LauraCoffee/index.html",
+    "main.fde57e22.css.map": "/LauraCoffee/static/css/main.fde57e22.css.map",
+    "main.811cb532.js.map": "/LauraCoffee/static/js/main.811cb532.js.map",
+    "787.174a0e6e.chunk.js.map": "/LauraCoffee/static/js/787.174a0e6e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fde57e22.css",
+    "static/js/main.811cb532.js"
+  ]
+}
