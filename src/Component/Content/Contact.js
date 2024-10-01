@@ -2,7 +2,7 @@ import "../../assets/scss/contact.scss"
 
 const Contact = () => {
     return (
-        <div className="contact-container row">
+        <div className="contact-container row my-text-primary">
             <div className="contact-desc col-lg-5">
                 <h1 className="mb-3">Contact</h1>
                 <span className="contact-desc-span-a">Please fill out the form below to send us an email</span>

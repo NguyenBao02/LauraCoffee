@@ -3,7 +3,7 @@ import contest from "../../assets/image/contest.png"
 
 const Contest = () => {
     return (
-        <div className="contest-container">
+        <div className="contest-container my-text-primary">
             <div className="contest-top">
                 <img src={contest} />
             </div>

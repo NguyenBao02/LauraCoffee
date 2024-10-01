@@ -1,6 +1,11 @@
 import { Outlet } from "react-router-dom"
 import Header from "../Header/Header"
 import Footer from "../Footer/Footer"
+import Homepage from "../Content/Homepage"
+import Prod from "../Content/Prod"
+import News from "../Content/News"
+import Contact from "../Content/Contact"
+import Contest from "../Content/Contest"
 
 const Content = (props) => {
     return (
@@ -11,7 +16,16 @@ const Content = (props) => {
             </div>
 
             <div className="content-container container mb-5">
-                <Outlet />
+                {/* <Outlet /> */}
+                <Homepage />
+                <hr />
+                <Prod />
+                <hr />
+                <News />
+                <hr />
+                <Contest />
+                <hr />
+                <Contact />
             </div>
 
             <div className="footer-container">
