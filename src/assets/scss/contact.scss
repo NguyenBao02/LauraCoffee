@@ -1,0 +1,30 @@
+.contact-container {
+    .contact-desc {
+        .contact-desc-span-a {
+            font-size: 22px;
+            font-weight: 600;
+            font-style: italic;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-top: 16px;
+        }
+
+        .contact-desc-span-b {
+            font-size: 18px;
+            font-weight: 600;
+        }
+    }
+
+    .contact-form {
+        .contact-btn {
+            background-color: #f3f2f1;
+
+            &:hover {
+                background-color: #8B4513;
+            }
+        }
+    }
+}

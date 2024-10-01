@@ -1,0 +1,28 @@
+.homepage-pannel {
+    img {
+        width: 100%;
+        border-radius: 6px;
+    }
+}
+
+.homepage-desc {
+    .homepage-desc-text {
+        font-size: 22px;
+        line-height: 1.6;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 6px;
+    }
+
+    .homepage-desc-btn {
+        width: 270px;
+        height: 50px;
+        background-color: #f3f2f1;
+
+        &:hover {
+            background-color: #8B4513;
+        }
+    }
+}
