@@ -4,12 +4,9 @@ const Contact = () => {
     return (
         <div className="contact-container row">
             <div className="contact-desc col-lg-5">
-                <h1 className="mb-3">Contact</h1>
-                <span className="contact-desc-span-a">Please fill out the form below to send us an email</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <h1 className="mb-3">Liên Hệ</h1>
+                <span className="contact-desc-span-a">Vui lòng điền vào mẫu dưới đây để gửi email cho chúng tôi</span>
+                <p>Chất lượng cà phê là quy chuẩn Laura Coffee đặt lên hàng đầu bởi chỉ khi có hương vị đắm say thì mới có thể khiến mọi người say đắm không lối thoát. Laura Coffee tự tin càng uống càng khỏe, càng khỏe lại càng trẻ.
                 </p>
                 <h4 className="mt-4">E-mail:</h4>
                 <span className="contact-desc-span-b">hello@reallygreatsite.com</span>

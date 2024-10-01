@@ -7,7 +7,7 @@ const Header = (props) => {
     const navigate = useNavigate();
 
     return (
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary ">
             <div className="container-fluid">
                 <div className="header-left">
                     <a className="navbar-brand" href="#">

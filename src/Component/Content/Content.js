@@ -10,7 +10,7 @@ const Content = (props) => {
                 <hr />
             </div>
 
-            <div className="content-container container mb-5">
+            <div className="content-container container mb-5 my-color-primary">
                 <Outlet />
             </div>
 

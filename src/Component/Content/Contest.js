@@ -1,7 +1,10 @@
 import "../../assets/scss/contest.scss"
 import contest from "../../assets/image/contest.png"
+import { useNavigate } from "react-router-dom"
 
 const Contest = () => {
+    const navigate = useNavigate();
+
     return (
         <div className="contest-container">
             <div className="contest-top">
@@ -17,7 +20,7 @@ const Contest = () => {
                     chia sẻ và tham gia ngay hôm nay!
                 </p>
 
-                <button className="btn btn-outline-dark btn-lg mt-1 contest-bottom-btn">THAM GIA NGAY</button>
+                <a href="https://www.facebook.com/permalink.php?story_fbid=pfbid02nXb7m5E52zgsusYNuHxzw3qp6Nw5JQhko5rwHvofee1WpXHhCZv9UqAiMWbyTZVtl&id=61566566663301"><button className="btn btn-outline-dark btn-lg mt-1 contest-bottom-btn">THAM GIA NGAY</button></a>
             </div>
 
         </div>

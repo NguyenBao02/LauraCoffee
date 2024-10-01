@@ -3,6 +3,10 @@ import hp_1 from "../../assets/image/hp_1.png"
 import hp_2 from "../../assets/image/hp_2.png"
 import hp_3 from "../../assets/image/hp_3.png"
 import "../../assets/scss/homepage.scss";
+import Prod from "../Content/Prod"
+import Contact from "../Content/Contact"
+import Contest from "../Content/Contest"
+import News from "../Content/News"
 
 const Homepage = () => {
     return (
@@ -11,7 +15,7 @@ const Homepage = () => {
                 <img src={pannel} />
             </div>
 
-            <div className="homepage-desc row mt-4">
+            <div className="homepage-desc row mt-4 mb-5">
                 <div className="col-lg-6">
                     <span className="homepage-desc-text d-block mb-2">
                         Cà phê Nhật Kim Anh Laura Sunshine
@@ -37,6 +41,19 @@ const Homepage = () => {
                     </div>
                 </div>
             </div>
+
+            <h3 className="mt-5">SẢN PHẨM</h3>
+            <hr />
+            <Prod />
+            <h3 className="mt-5">TIN TỨC</h3>
+            <hr />
+            <News />
+            <h3 className="mt-5">CUỘC THI</h3>
+            <hr />
+            <Contest />
+            <h3 className="mt-5">LIÊN HỆ</h3>
+            <hr />
+            <Contact />
         </>
     )
 }
