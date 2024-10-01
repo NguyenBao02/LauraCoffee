@@ -8,7 +8,7 @@ const Contest = () => {
     return (
         <div className="contest-container">
             <div className="contest-top">
-                <img src={contest} />
+                <img src={contest} alt="logo" />
             </div>
             <div className="contest-bottom d-flex flex-column justify-content-center align-items-center">
                 <h4>“THỬ THÁCH SÁNG TẠO” CÙNG LAURA COFFEE</h4>

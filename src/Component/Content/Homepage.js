@@ -12,7 +12,7 @@ const Homepage = () => {
     return (
         <>
             <div className="homepage-pannel">
-                <img src={pannel} />
+                <img src={pannel} alt="logo" />
             </div>
 
             <div className="homepage-desc row mt-4 mb-5">
@@ -30,13 +30,13 @@ const Homepage = () => {
                 <div className="col-lg-6">
                     <div className="row">
                         <div className="col-lg-4">
-                            <img src={hp_1} />
+                            <img src={hp_1} alt="logo" />
                         </div>
                         <div className="col-lg-4">
-                            <img src={hp_2} />
+                            <img src={hp_2} alt="logo" />
                         </div>
                         <div className="col-lg-4">
-                            <img src={hp_3} />
+                            <img src={hp_3} alt="logo" />
                         </div>
                     </div>
                 </div>

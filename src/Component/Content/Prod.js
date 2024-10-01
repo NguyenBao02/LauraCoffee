@@ -7,7 +7,7 @@ const Prod = () => {
         <div className="prod-container">
             <div className="row">
                 <div className="col-lg-3">
-                    <img src={prod_1} />
+                    <img src={prod_1} alt="logo" />
                 </div>
                 <div className="col-lg-9 mt-2">
                     <h2 className="mb-3">CÀ PHÊ ĐÔNG TRÙNG HẠ THẢO</h2>
@@ -23,7 +23,7 @@ const Prod = () => {
 
             <div className="row mt-4">
                 <div className="col-lg-3">
-                    <img src={prod_2} />
+                    <img src={prod_2} alt="logo" />
                 </div>
                 <div className="col-lg-9 mt-2">
                     <h2 className="mb-3">CÀ PHÊ NẤM LINH CHI</h2>

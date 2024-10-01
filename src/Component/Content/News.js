@@ -5,7 +5,7 @@ const News = () => {
     return (
         <div className="row news-container">
             <div className="col-lg-5">
-                <img src={news} />
+                <img src={news} alt="logo" />
             </div>
             <div className="col-lg-7">
                 <p className="news-container-header">CEO</p>
