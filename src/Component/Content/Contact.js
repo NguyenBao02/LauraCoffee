@@ -15,7 +15,7 @@ const Contact = () => {
             <div className="contact-form col-lg-7">
                 <form className="row g-3">
                     <div className="col-12">
-                        <label className="form-label">Name</label>
+                        <label className="form-label">Họ và tên</label>
                         <input type="text" className="form-control" placeholder="Nguyen Quoc Bao" />
                     </div>
                     <div className="col-12">
@@ -27,11 +27,11 @@ const Contact = () => {
                         <input type="text" className="form-control" />
                     </div>
                     <div className="col-12">
-                        <label className="form-label">Message</label>
+                        <label className="form-label">Tin nhắn</label>
                         <textarea class="form-control" rows="3"></textarea>
                     </div>
                     <div className="col-12">
-                        <button className="btn btn-outline-dark contact-btn">Submit</button>
+                        <button className="btn btn-outline-dark contact-btn">Gửi Liên Hệ</button>
                     </div>
                 </form>
             </div>

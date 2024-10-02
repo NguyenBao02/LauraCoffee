@@ -1,0 +1,19 @@
+.introduce-container {
+    p {
+        font-size: 20px;
+        line-height: 1.6;
+        color: #000;
+        text-align: justify
+    }
+
+    .introduce-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            border-radius: 6px;
+            height: 400px;
+        }
+    }
+}

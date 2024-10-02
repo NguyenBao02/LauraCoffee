@@ -1,21 +1,16 @@
 import { Outlet } from "react-router-dom"
 import Header from "../Header/Header"
 import Footer from "../Footer/Footer"
-import Homepage from "../Content/Homepage"
-import Prod from "../Content/Prod"
-import News from "../Content/News"
-import Contact from "../Content/Contact"
-import Contest from "../Content/Contest"
 
 const Content = (props) => {
     return (
         <div className="app-container">
-            <div className="header-container mt-2 container">
+            <div className="header-container mt-1 container">
                 <Header />
-                <hr />
             </div>
+            <hr />
 
-            <div className="content-container container mb-5 my-color-primary">
+            <div className="content-container container mt-4 mb-5 my-color-primary">
                 <Outlet />
             </div>
 
