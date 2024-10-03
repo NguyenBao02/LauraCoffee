@@ -12,6 +12,10 @@ import Contact from "./Component/Content/Contact.js";
 import Contest from "./Component/Content/Contest.js";
 import Introduce from "./Component/Content/Introduce.js";
 import Benefit from "./Component/Content/Benefit.js";
+import Keyword1 from "./Component/Content/Keyword1.js";
+import Keyword2 from "./Component/Content/Keyword2.js";
+import Keyword3 from "./Component/Content/Keyword3.js";
+import Keyword4 from "./Component/Content/Keyword4.js";
 
 const router = createBrowserRouter([
     {
@@ -53,6 +57,22 @@ const router = createBrowserRouter([
             {
                 path: "benefit",
                 element: <Benefit />
+            },
+            {
+                path: "keyword/1",
+                element: <Keyword1 />
+            },
+            {
+                path: "keyword/2",
+                element: <Keyword2 />
+            },
+            {
+                path: "keyword/3",
+                element: <Keyword3 />
+            },
+            {
+                path: "keyword/4",
+                element: <Keyword4 />
             },
         ],
     },
