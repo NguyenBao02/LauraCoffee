@@ -30,7 +30,7 @@ const Header = (props) => {
                             <NavDropdown.Item onClick={() => navigate("keyword/1")}>Tham Gia Cà Phê Sáng Tạo Cùng Tiktoker</NavDropdown.Item>
                             <NavDropdown.Item onClick={() => navigate("keyword/2")}>Có Lợi Cho Sức Khỏe</NavDropdown.Item>
                             <NavDropdown.Item onClick={() => navigate("keyword/3")}>Tham Gia Ngay Cuộc Thi "Thử Thách Cà Phê Sáng Tạo"</NavDropdown.Item>
-                            <NavDropdown.Item onClick={() => navigate("keyword/4")}>Bài SEO Cá Nhân</NavDropdown.Item>
+                            <NavDropdown.Item onClick={() => navigate("keyword/4")}>Nguồn Nguyên Liệu Sạch Tự Nhiên</NavDropdown.Item>
                         </NavDropdown>
                         <NavLink className='nav-link' onClick={() => navigate("contact")}>Liên Hệ</NavLink>
                     </Nav>
