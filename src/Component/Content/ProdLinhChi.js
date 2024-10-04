@@ -1,5 +1,5 @@
 import prod_2 from "../../assets/image/prod_2.png"
-import "../../assets/scss/prod.scss"
+import "../../assets/scss/prodNew.scss"
 
 const ProLinhChi = () => {
     return (

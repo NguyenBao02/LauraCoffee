@@ -4,37 +4,35 @@ import "../../assets/scss/prod.scss"
 
 const Prod = () => {
     return (
-        <div className="prod-container my-text-primary">
+        <div className="prod-container">
             <div className="row">
-                <div className="col-lg-3">
-                    <img src={prod_1} alt="logo" />
+                <div className="col-lg-6 ">
+                    <div className="prod-image">
+                        <img src={prod_1} alt="logo" />
+                    </div>
+                    <div className="prod-desc d-flex flex-column align-items-center">
+                        <h3 className="mb-3">CÀ PHÊ ĐÔNG TRÙNG HẠ THẢO</h3>
+                        <span className="d-block mb-2">85.000Đ/HỘP</span>
+                        <span className="d-block mb-2">Hộp 10 gói</span>
+                    </div>
+
                 </div>
-                <div className="col-lg-9 mt-2">
-                    <h2 className="mb-3">CÀ PHÊ ĐÔNG TRÙNG HẠ THẢO</h2>
-                    <span className="d-block mb-2">85.000Đ/HỘP (10 gói)</span>
-                    <p>Hương vị: béo mà không ngấy, thơm hương đông trùng, có
-                        vị chua nhẹ, đậm vị của cà phê tự nhiên.
-                        Cà phê đông trùng không chỉ giúp tỉnh tảo mà còn tăng
-                        cường sức đề kháng, tiếp sức cho người cần năng lượng
-                        bùng nổ.
-                    </p>
+
+                <div className="col-lg-6">
+                    <div className="prod-image">
+                        <img src={prod_2} alt="logo" />
+                    </div>
+                    <div className="prod-desc d-flex flex-column align-items-center">
+                        <h3 className="mb-3">CÀ PHÊ NẤM LINH CHI</h3>
+                        <span className="d-block mb-2">75.000Đ/HỘP</span>
+                        <span className="d-block mb-2">Hộp 10 gói</span>
+                    </div>
                 </div>
             </div>
 
-            <div className="row mt-4">
-                <div className="col-lg-3">
-                    <img src={prod_2} alt="logo" />
-                </div>
-                <div className="col-lg-9 mt-2">
-                    <h2 className="mb-3">CÀ PHÊ NẤM LINH CHI</h2>
-                    <span className="d-block mb-2">75.000Đ/HỘP (10 gói)</span>
-                    <p>Hương vị: ngọt thanh, có vị đắng nhẹ và hơi khét của nấm linh chi, mùi thơm đậm đà.
-                        Cà phê linh chi mang hương vị thanh nhẹ đủ làm say đắm những tín đồ cà phê, mang đến sức khỏe cho người sử dụng.
-                    </p>
-                </div>
+            <div className="d-flex justify-content-center">
+                <button className="btn btn-outline-dark btn-lg prod-btn">ĐẶT NGAY</button>
             </div>
-
-            <button className="btn btn-outline-dark btn-lg mt-4 prod-btn">ĐẶT NGAY</button>
         </div>
     )
 }

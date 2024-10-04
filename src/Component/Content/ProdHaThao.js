@@ -1,9 +1,9 @@
 import prod_1 from "../../assets/image/prod_1.png"
-import "../../assets/scss/prod.scss"
+import "../../assets/scss/prodNew.scss"
 
 const ProdHaThao = () => {
     return (
-        <div className="prod-container my-text-primary">
+        <div className="prod-container">
             <div className="row">
                 <div className="col-lg-3">
                     <img src={prod_1} alt="logo" />
