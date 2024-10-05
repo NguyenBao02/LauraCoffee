@@ -32,6 +32,13 @@ const Keyword4 = () => {
                 </a>
                 <span>Uống Laura Coffe giúp cơ thể tỉnh táo</span>
             </div>
+            <h4>2. 4. HÌNH THỨC THAM GIA CUỘC THI LAURA COFEE VỀ NGUỒN NGUYÊN LIỆU TỰ NHIÊN SẠCH TỰ NHIÊN.</h4>
+            <p>- Thông tin cá nhân ( Họ và tên/ Ngày tháng năm sinh/ Số điện thoại/ Địa chỉ )</p>
+            <p>- Ý tưởng/ Sản phẩm tham gia ( Mô tả ngắn gọn về sản phẩm,...)</p>
+            <p>- Lý do tham gia cuộc thi</p>
+            <p>- Hình ảnh sản phẩm ( nếu có )</p>
+            <p>Cuộc thi không chỉ dừng lại ở những ly cà phê ngon mà còn mang thông điệp về sức khỏe và phong cách sống hiện đại. Hãy tham gia và để Laura Coffee giúp bạn lan tỏa đam mê sáng tạo!</p>
+            <p>Đăng ký ngay để trở thành một phần của cộng đồng cà phê sáng tạo cùng Laura Coffee!</p>
         </div>
     )
 }

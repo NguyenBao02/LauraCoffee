@@ -28,9 +28,9 @@ const Keyword3 = () => {
             <p>Chúng tôi mời gọi tất cả những người yêu thích cà phê tham gia "Thử Thách Cà Phê Sáng Tạo". Đây là cơ hội để bạn thể hiện sự sáng tạo, khám phá những công thức mới và chia sẻ niềm đam mê với cà phê sạch. Hãy cùng nhau tạo ra những ly cà phê không chỉ tuyệt vời về hương vị mà còn mang lại lợi ích sức khỏe cho cộng đồng.</p>
             <p>Một số ý tưởng sáng tạo cho các công thức cà phê mà bạn có thể thử trong cuộc thi "Thử Thách Cà Phê Sáng Tạo":</p>
             <p> -	Cà phê gừng LAURA: Pha cà phê với gừng tươi và mật ong để tăng cường hương vị và sức đề kháng.
-                -	Cà phê nghệ hữu cơ: Thêm bột nghệ vào cà phê để tạo ra một thức uống không chỉ thơm ngon mà còn rất tốt cho gan.
-                -	Cà phê sữa hạnh nhân: Kết hợp cà phê với sữa hạnh nhân giúp làm phong phú thêm hương vị và bổ sung vitamin E cho cơ thể.
             </p>
+            <p> -	Cà phê nghệ hữu cơ: Thêm bột nghệ vào cà phê để tạo ra một thức uống không chỉ thơm ngon mà còn rất tốt cho gan.</p>
+            <p>-	Cà phê sữa hạnh nhân: Kết hợp cà phê với sữa hạnh nhân giúp làm phong phú thêm hương vị và bổ sung vitamin E cho cơ thể.</p>
             <div className="keyword-image mb-3">
                 <a>
                     <img src={kw_3} alt="anh" />

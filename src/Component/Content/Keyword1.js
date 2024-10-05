@@ -52,7 +52,6 @@ const Keyword1 = () => {
                 <a>
                     <img src={kw_3} alt="anh" />
                 </a>
-                <span>Bánh mỳ chấm cà phê</span>
             </div>
             <h4>4. Cách Thức Tham Gia:</h4>
             <p>- Quay Video: Người chơi quay video ngắn (từ 30 giây đến 1 phút) với sáng tạo cá nhân cùng Laura Coffee
