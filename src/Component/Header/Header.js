@@ -27,10 +27,10 @@ const Header = (props) => {
                         </NavDropdown>
                         <NavDropdown title="Cuộc Thi" id="basic-nav-dropdown">
                             <NavDropdown.Item onClick={() => navigate("contest")}>Sơ Lược Về Cuộc Thi</NavDropdown.Item>
-                            <NavDropdown.Item onClick={() => navigate("keyword/1")}>Tham Gia Cà Phê Sáng Tạo Cùng Tiktoker</NavDropdown.Item>
-                            <NavDropdown.Item onClick={() => navigate("keyword/2")}>Có Lợi Cho Sức Khỏe</NavDropdown.Item>
-                            <NavDropdown.Item onClick={() => navigate("keyword/3")}>Tham Gia Ngay Cuộc Thi "Thử Thách Cà Phê Sáng Tạo"</NavDropdown.Item>
-                            <NavDropdown.Item onClick={() => navigate("keyword/4")}>Nguồn Nguyên Liệu Sạch Tự Nhiên</NavDropdown.Item>
+                            <NavDropdown.Item onClick={() => navigate("tham-gia-cuoc-thi-sang-tao-ca-phe-cung-cac-Fluencer-cua-Laura-Coffee")}>Tham Gia Cà Phê Sáng Tạo Cùng Tiktoker</NavDropdown.Item>
+                            <NavDropdown.Item onClick={() => navigate("Laura-Coffee-tot-cho-suc-khoe-hay-khong?")}>Có Lợi Cho Sức Khỏe</NavDropdown.Item>
+                            <NavDropdown.Item onClick={() => navigate("tham-gia-ngay-cuoc-thi-thu-thach-ca-phe-sang-tao-cua-Laura-Coffee")}>Tham Gia Ngay Cuộc Thi "Thử Thách Cà Phê Sáng Tạo"</NavDropdown.Item>
+                            <NavDropdown.Item onClick={() => navigate("LAURA-COFFE-nguon-nguyen-lieu-sach-tu-nhien")}>Nguồn Nguyên Liệu Sạch Tự Nhiên</NavDropdown.Item>
                         </NavDropdown>
                         <NavLink className='nav-link' onClick={() => navigate("contact")}>Liên Hệ</NavLink>
                     </Nav>

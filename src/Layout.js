@@ -59,19 +59,19 @@ const router = createBrowserRouter([
                 element: <Benefit />
             },
             {
-                path: "keyword/1",
+                path: "tham-gia-cuoc-thi-sang-tao-ca-phe-cung-cac-Fluencer-cua-Laura-Coffee",
                 element: <Keyword1 />
             },
             {
-                path: "keyword/2",
+                path: "Laura-Coffee-tot-cho-suc-khoe-hay-khong?",
                 element: <Keyword2 />
             },
             {
-                path: "keyword/3",
+                path: "tham-gia-ngay-cuoc-thi-thu-thach-ca-phe-sang-tao-cua-Laura-Coffee",
                 element: <Keyword3 />
             },
             {
-                path: "keyword/4",
+                path: "LAURA-COFFE-nguon-nguyen-lieu-sach-tu-nhien",
                 element: <Keyword4 />
             },
         ],
